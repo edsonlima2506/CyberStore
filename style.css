@@ -1,0 +1,380 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #18181E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2 {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#searchInput {
+    background-color: #3F404F;
+    color: #FFF;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+#bagHeader {
+    width: 20px;
+    cursor: pointer;
+}
+
+header p {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin-left: 35px;
+}
+
+#containerBagUser {
+    display: flex;
+    align-items: center;
+}
+
+#perfilGif {
+    width: 40px;
+    border-radius: 25px;
+    margin-left: 35px;
+}
+
+#banner {
+    width: 100%;
+    height: 600px;
+    background-image: url(imagens/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    filter: brightness(70%);
+}
+
+#menu {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    opacity: 0.8;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul {
+    display: flex;
+    color: #FFF;
+    list-style: none;
+}
+
+#menu ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+#menu ul li:hover {
+    color: #F80828;
+}
+
+#tituloBanner {
+    position: relative;
+    color: #FFF;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    top: 120px;
+    margin-left: 90px;
+}
+
+#textoBanner {
+    position: relative;
+    color: #FFF;
+    top: 150px;
+    margin-left: 90px;
+    font-family: 'Fira Sans', sans-serif;
+    opacity: 0.8;
+}
+
+#buyNow {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    top: 200px;
+    margin-left: 200px;
+    color: #FFF;
+    font-weight: 700;
+    background-color: #F80828;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#buyNow:hover {
+    background-color: #f84159;
+}
+
+#preçoBanner {
+    position: relative;
+    color: #FFF;
+    top: 163px;
+    margin-left: 100px;
+    font-weight: 700;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#gamesHome{
+    display: flex;
+    width: 100%;
+    margin-top: 280px;
+}
+
+#gamesHome .game {
+    width: 20%;
+    height: 450px;
+    background-color: #18181E;
+    position: inherit;
+    border-bottom: 3px solid #F80828;
+}
+
+#game1 {
+    background-image: linear-gradient(to bottom, transparent 0%, #18181E 80%), url(imagens/game1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#game2 {
+    background-image: linear-gradient(to bottom, transparent 0%, #18181E 80%), url(imagens/game2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game3 {
+    background-image: linear-gradient(to bottom, transparent 0%, #18181E 80%), url(imagens/game3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game4 {
+    background-image: linear-gradient(to bottom, transparent 0%, #18181E 80%), url(imagens/game4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game5 {
+    background-image: linear-gradient(to bottom, transparent 0%, #18181E 80%), url(imagens/game5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gameName {
+    position: relative;
+    margin-top: 350px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.btnAddToCart {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    background-color: #F80828;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btnAddToCart:hover {
+    background-color: #fd415a;
+}
+
+#gamesPopularesBg {
+    width: 100%;
+    height: 1200px;
+    background-image: url(imagens/bgpopulares.jpg);
+    background-position-y: top;
+    background-position-x: right;
+    filter: brightness(10%);
+    position: absolute;
+}
+
+#containerGamesPopulares {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#tituloPopulares {
+    position: relative;
+    color: #FFF;
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#containerGamesPopulares hr {
+    width: 200px;
+    border-color: #F80828;
+    margin-top: 25px;
+}
+
+#explicaPopulares {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#containerGamesPopulares nav ul {
+    display: flex;
+    list-style: none;
+    color: #FFF;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+#containerGamesPopulares nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#containerGamesPopulares nav ul li:hover {
+    background-color: #F80828;
+    border-radius: 20px;
+}
+
+#gamesPopulares {
+    display: flex;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.gamePopular {
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+}
+
+#gamePopular1 {
+    background-image: linear-gradient(to bottom, transparent 0%, #000 95%), url(imagens/popular1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+#gamePopular2 {
+    background-image: linear-gradient(to bottom, transparent 0%, #000 95%), url(imagens/popular2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+}
+
+#gamePopular3 {
+    background-image: linear-gradient(to bottom, transparent 0%, #000 100%), url(imagens/popular3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+}
+
+#gamesPopularesInferior {
+    display: flex;
+}
+
+.gamePopularInferior {
+    width: 450px;
+    height: 250px;
+    background-color: #F80828;
+    margin: 10px;
+}
+
+#gamePopular4 {
+    background-image: linear-gradient(to bottom, transparent 0%, #000 100%), url(imagens/popular4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+}
+
+#gamePopular5 {
+    background-image: linear-gradient(to bottom, transparent 0%, #000 100%), url(imagens/popular5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+}
+
+#gamesPopularesInferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gamesPopularesInferior section {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnPopularInferior {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F80828;
+    color: #FFF;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btnPopularInferior:hover {
+    background-color: #f84159;
+}
+
+#seeMore {
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #373741;
+    opacity: 0.8;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#seeMore:hover {
+    opacity: 0.5;
+}
