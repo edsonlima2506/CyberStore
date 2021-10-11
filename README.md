@@ -2,11 +2,13 @@
 <p>Projeto para treino de HTML e CSS, simulando um site de jogos, <br> conhecimentos aplicados: HTML,CSS, Flexbox, Grid</p>
 <h1>Resultado final:</h1>
 
-![csscreenshot](https://user-images.githubusercontent.com/81549048/135842262-3553ef17-2cf4-48e0-b8b2-317d69d6ac2d.png)
+https://user-images.githubusercontent.com/81549048/136845387-2145903f-64c6-41d9-8e09-561e8821acba.mp4
 
 ## Instruções para baixar os arquivos
 
 ### Antes de começar a desenvolver
+
+
 
 1. Clone o repositório
   * `git clone git@github.com:edsonlima2506/CyberStore.git`.
